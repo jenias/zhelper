@@ -1,4 +1,4 @@
-package ru.zhelper.zhelper.controllers;
+package ru.zhelper.controllers;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -8,12 +8,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import ru.zhelper.zhelper.controllers.exeptions.BadRequestException;
-import ru.zhelper.zhelper.models.Procurement;
-import ru.zhelper.zhelper.models.dto.ProcurementAddress;
-import ru.zhelper.zhelper.repository.ProcurementRepo;
-import ru.zhelper.zhelper.services.ProcurementService;
-import ru.zhelper.zhelper.services.exceptions.BadDataParsingException;
+import ru.zhelper.controllers.exeptions.BadRequestException;
+import ru.zhelper.models.Procurement;
+import ru.zhelper.repository.ProcurementRepo;
+import ru.zhelper.models.dto.ProcurementAddress;
+import ru.zhelper.services.ProcurementService;
+import ru.zhelper.services.exceptions.BadDataParsingException;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;

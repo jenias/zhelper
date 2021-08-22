@@ -1,6 +1,6 @@
-package ru.zhelper.zhelper.services;
+package ru.zhelper.services;
 
-import ru.zhelper.zhelper.models.dto.ProcurementAddress;
+import ru.zhelper.models.dto.ProcurementAddress;
 
 public interface ProcurementService {
     void action(ProcurementAddress procurementAddress);

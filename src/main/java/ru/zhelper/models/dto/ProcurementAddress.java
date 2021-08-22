@@ -1,4 +1,4 @@
-package ru.zhelper.zhelper.models.dto;
+package ru.zhelper.models.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

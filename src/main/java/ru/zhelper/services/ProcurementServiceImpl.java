@@ -1,9 +1,9 @@
-package ru.zhelper.zhelper.services;
+package ru.zhelper.services;
 
 import org.springframework.stereotype.Service;
-import ru.zhelper.zhelper.models.Procurement;
-import ru.zhelper.zhelper.models.dto.ProcurementAddress;
-import ru.zhelper.zhelper.repository.ProcurementRepo;
+import ru.zhelper.models.Procurement;
+import ru.zhelper.models.dto.ProcurementAddress;
+import ru.zhelper.repository.ProcurementRepo;
 
 @Service
 public class ProcurementServiceImpl implements ProcurementService {

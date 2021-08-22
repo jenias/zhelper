@@ -1,4 +1,4 @@
-package ru.zhelper.zhelper.models;
+package ru.zhelper.models;
 
 
 import lombok.AllArgsConstructor;

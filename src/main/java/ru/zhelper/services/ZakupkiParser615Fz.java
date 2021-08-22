@@ -1,4 +1,4 @@
-package ru.zhelper.zhelper.services;
+package ru.zhelper.services;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -6,10 +6,10 @@ import org.jsoup.nodes.Element;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
-import ru.zhelper.zhelper.models.ProcedureType;
-import ru.zhelper.zhelper.models.Procurement;
-import ru.zhelper.zhelper.models.Stage;
-import ru.zhelper.zhelper.services.exceptions.BadDataParsingException;
+import ru.zhelper.models.ProcedureType;
+import ru.zhelper.models.Procurement;
+import ru.zhelper.models.Stage;
+import ru.zhelper.services.exceptions.BadDataParsingException;
 
 import java.io.IOException;
 import java.math.BigDecimal;

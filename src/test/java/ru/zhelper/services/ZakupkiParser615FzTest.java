@@ -1,4 +1,4 @@
-package ru.zhelper.zhelper.services;
+package ru.zhelper.services;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Element;
@@ -6,11 +6,10 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit4.SpringRunner;
 
-import ru.zhelper.zhelper.models.ProcedureType;
-import ru.zhelper.zhelper.models.Stage;
-import ru.zhelper.zhelper.services.exceptions.BadDataParsingException;
+import ru.zhelper.models.ProcedureType;
+import ru.zhelper.models.Stage;
+import ru.zhelper.services.exceptions.BadDataParsingException;
 
 import java.io.IOException;
 import java.math.BigDecimal;
