@@ -43,9 +43,10 @@
                     </exclusions>
                 </dependency>
                 <dependency>
-                    <groupId>org.apache.tomcat</groupId>
-                    <artifactId>tomcat-annotations-api</artifactId>
-                    <version>9.0.33</version>
+                    <groupId>javax.servlet</groupId>
+                    <artifactId>javax.servlet-api</artifactId>
+                    <version>3.1.0</version>
+                    <scope>provided</scope>
                 </dependency>
             </dependencies>
         </profile>
