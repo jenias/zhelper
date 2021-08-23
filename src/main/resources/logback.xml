@@ -2,8 +2,6 @@
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ch.qos.logback/xml/ns/logback"
                xsi:noNamespaceSchemaLocation="logback.xsd">
 
-    <property resource="\application.properties"/>
-
     <appender name="FILE"
               class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>logs/zhelper.log</file>
